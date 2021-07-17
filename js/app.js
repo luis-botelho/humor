@@ -1,7 +1,7 @@
 const pokeName = document.querySelector('.name')
 const pokeDescription = document.querySelector('.description')
 const pokeImg = document.querySelector('.active')
-const beackGround = document.querySelector('body')
+
 // buttons
 const typeWater = document.querySelector('.water') 
 const typeEletric = document.querySelector('.eletric')
