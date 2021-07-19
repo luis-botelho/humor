@@ -46,8 +46,6 @@ body{
     display: block;
     margin: auto;
 }
- 
-
 p{
 margin-left: 1.5rem;
 }
@@ -56,20 +54,20 @@ margin-left: 1.5rem;
     margin-left: 1.5rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 3;
 }
 .type button{
     padding: .3rem;
     border-radius: .3rem;
     border: 1px solid black;
     transition: all ease-out .3s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
     margin: .2rem;
 }
 .type button:hover{
     transform: scale(1.03);
+    
 }
+
 .water{
     background-color: #4592C4;
     color: white;
